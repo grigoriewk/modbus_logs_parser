@@ -1,0 +1,15 @@
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\modbus-logs-parser.csprojAssemblyReference.cache
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\MainWindow.g.cs
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\App.g.cs
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\modbus-logs-parser_MarkupCompile.cache
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\modbus-logs-parser_MarkupCompile.lref
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\bin\Debug\modbus-logs-parser.exe.config
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\bin\Debug\modbus-logs-parser.exe
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\bin\Debug\modbus-logs-parser.pdb
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\MainWindow.baml
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\modbus-logs-parser.g.resources
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\modbus_logs_parser.Properties.Resources.resources
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\modbus-logs-parser.csproj.GenerateResource.cache
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\modbus-logs-parser.csproj.CoreCompileInputs.cache
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\modbus-logs-parser.exe
+C:\Users\kiril\source\repos\modbus-logs-parser\modbus-logs-parser\obj\Debug\modbus-logs-parser.pdb

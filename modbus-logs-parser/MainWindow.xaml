@@ -1,0 +1,35 @@
+﻿<Window x:Class="test_app_for_techart.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:test_app_for_techart"
+        mc:Ignorable="d"
+        Title="Modbus Logs Parser by grigoriewk" Height="653.2" Width="603.2" Background="Snow">
+
+    <Grid Background="WhiteSmoke" Margin="0,0,3.8,0" Height="623" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="343*"/>
+            <ColumnDefinition Width="250*"/>
+        </Grid.ColumnDefinitions>
+
+        <GroupBox Header="Начало работы. Выбор файла / ручной ввод"  BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="235" Margin="10,10,0,0" VerticalAlignment="Top" Width="572" Grid.ColumnSpan="2">
+            <Canvas Margin="-6,0,15,7.8">
+                <Button x:Name="btnOpenFile" Content="Выберите файл.." HorizontalAlignment="Left" Padding="0,3" 
+                        VerticalAlignment="Top" Width="161" Height="25" Click="btnOpenFile_Click" Canvas.Left="10" Canvas.Top="3"/>
+                <TextBox x:Name="logWithData" HorizontalAlignment="Left" Height="176" TextWrapping="Wrap" 
+                         VerticalAlignment="Top" Width="550" Canvas.Left="10" Canvas.Top="33" Text="В данное поле вы можете ввести собственные данные. &#xD;&#xA;Правила: между столбцами данных должна присутствовать табуляция (tab, \t). &#xD;&#xA;Разделение блока данных - с помощью пробела." HorizontalScrollBarVisibility="Auto"/>
+            </Canvas>
+        </GroupBox>
+        <Button x:Name="btnSaveReport" Content="Сохранить отчёт" HorizontalAlignment="Left" 
+                Width="573" Click="btnSaveReport_Click" Margin="10,567,0,0" Height="45" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <GroupBox BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="312" Margin="10,250,0,0" VerticalAlignment="Top" Width="572" Header="Конвертация&#xD;&#xA;" Grid.ColumnSpan="2">
+            <Canvas Margin="2,10,-2,-10">
+                <Button x:Name="btnStartConverting" Content="Начать форматирование" HorizontalAlignment="Left" Padding="0,3" 
+                        VerticalAlignment="Top" Width="161" Height="23" Click="btnStartConvertingLog_Click" Canvas.Left="10" Canvas.Top="-15"/>
+                <TextBox x:Name="logParseResult" TextWrapping="Wrap" IsReadOnly="True" Text="В данном поле будет показано расширенное описание логов." Height="251" Canvas.Left="10" Canvas.Top="13" Width="540"/>
+            </Canvas>
+        </GroupBox>
+
+    </Grid>
+</Window>
